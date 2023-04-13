@@ -1,28 +1,28 @@
 {
   message: 'grpc server is running at 2001',
   level: 'info',
-  timestamp: '2023-04-13T08:12:17.270Z',
+  timestamp: '2023-04-13T08:45:52.242Z',
   label: 'driver_service',
   metadata: {}
 }
 {
   message: 'grpc server is running at 2001',
   level: 'info',
-  timestamp: '2023-04-13T08:12:40.035Z',
-  label: 'driver_service',
+  timestamp: '2023-04-13T08:46:18.143Z',
+  label: 'user_service',
   metadata: {}
 }
 {
-  message: 'Error while connecting to database (mongodb://developer:2004@localhost:27017/mongo_user_db) connect ECONNREFUSED ::1:27017',
+  message: 'Error while connecting to database (mongodb://localhost:27017/mongo_user_db) connect ECONNREFUSED ::1:27017',
   level: 'error',
-  timestamp: '2023-04-13T08:13:09.847Z',
-  label: 'driver_service',
+  timestamp: '2023-04-13T08:46:47.938Z',
+  label: 'user_service',
   metadata: {}
 }
 {
   message: 'Connected to mongoDB',
   level: 'info',
-  timestamp: '2023-04-13T08:13:09.849Z',
-  label: 'driver_service',
+  timestamp: '2023-04-13T08:46:47.941Z',
+  label: 'user_service',
   metadata: {}
 }

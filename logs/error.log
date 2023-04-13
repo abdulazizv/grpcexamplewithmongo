@@ -1,7 +1,7 @@
 {
-  message: 'Error while connecting to database (mongodb://developer:2004@localhost:27017/mongo_user_db) connect ECONNREFUSED ::1:27017',
+  message: 'Error while connecting to database (mongodb://localhost:27017/mongo_user_db) connect ECONNREFUSED ::1:27017',
   level: 'error',
-  timestamp: '2023-04-13T08:13:09.847Z',
-  label: 'driver_service',
+  timestamp: '2023-04-13T08:46:47.938Z',
+  label: 'user_service',
   metadata: {}
 }

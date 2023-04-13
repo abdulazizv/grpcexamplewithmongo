@@ -13,7 +13,7 @@ const level = {
 const logger = winston.createLogger({
     format: winston.format.combine(
         winston.format.label({
-            label: "driver_service"
+            label: "user_service"
         }),
         winston.format.timestamp(),
         winston.format.splat(),

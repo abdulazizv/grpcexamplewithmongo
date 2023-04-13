@@ -2,13 +2,15 @@ const cfg = require("./index");
 const mongoose = require("mongoose");
 const logger = require("./logger");
 
-let mongoDBURL =
-    "mongodb://" +
-    cfg.mongoUser +
-    ":" + cfg.mongoPassword +
-    "@" + cfg.mongoHost +
-    ":" + cfg.mongoPort +
-    "/" + cfg.mongoDatabase;
+// let mongoDBURL =
+//     "mongodb://" +
+//     cfg.mongoUser +
+//     ":" + cfg.mongoPassword +
+//     "@" + cfg.mongoHost +
+//     ":" + cfg.mongoPort +
+//     "/" + cfg.mongoDatabase;
+
+let mongoDBURL = "mongodb://localhost:27017/mongo_user_db"
 
 mongoose.set ('strictQuery', true);
 
