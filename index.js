@@ -1,3 +1,4 @@
 require("dotenv").config({path:'.env'});
 
-const mongooseConnection = require()
+const mongooseConnection = require("./config/mongodbConnection")
+const grpcConnection = require("./config/grpcConnection");
